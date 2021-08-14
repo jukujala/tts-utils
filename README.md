@@ -12,7 +12,7 @@ You need to import the deck template to a TTS game:
 pip install git+https://github.com/jukujala/tts-utils
 ```
 
-## Generate TTS deck template
+## How: generate TTS deck template
 
 ```
 python -m tts_utils.create_tts_deck \
@@ -23,3 +23,12 @@ python -m tts_utils.create_tts_deck \
 
 - `<input path>` has card images in separate files.
 - `<card back image>` is a single file.
+
+Example with test data included in this repository:
+
+```
+python -m tts_utils.create_tts_deck \
+    --input tests/data/card_images \
+    --back tests/data/card_back.png \
+    --output tests/data/deck_templates/
+```
