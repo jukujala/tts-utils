@@ -1,4 +1,4 @@
-# Python utilities for Table Top Simulator (TTS)
+# Python utilities for Tabletop Simulator (TTS)
 
 This repo has Python utilities to help create games to
 [TTS](https://www.tabletopsimulator.com/).
